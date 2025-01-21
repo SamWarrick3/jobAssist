@@ -87,6 +87,8 @@ def linkedin_job_search(qa: test_quickapply.TestQuickApply, criterias: list, loc
       date (str): "any time", "month", "week", or "24hr" for filtering based on jobs posted within the last amount of time selected.
   """
 
+  #TODO: Check that the search criteria input into the linkedin search box is formatted for regex
+
   for place in locations:
     for idx, search in enumerate(criterias):
 
